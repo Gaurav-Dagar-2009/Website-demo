@@ -1,0 +1,21 @@
+.hover-lift {
+    border-radius: 15%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.hover-lift:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 10px darkgray;
+    background-color: #5F9598;
+}
+.card {
+    border-radius: 20px;
+    background-color: #3B9797;
+    color: #EEEEEE;
+}
+body {
+    color: #EEEEEE;
+    background-color: #393E46;
+}
+#link {
+    color: #FFFBB1;
+}
